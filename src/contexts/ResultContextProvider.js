@@ -31,6 +31,22 @@ export const ResultContextProvider = ({ children }) => {
 
   };
 
+//   import type { GoogleParameters } from "serpapi";
+// import { getJson } from "serpapi";
+
+// const params = {
+//   q: "Coffee",
+//   location: "Austin, Texas, United States",
+//   hl: "en",
+//   gl: "us",
+//   google_domain: "google.com",
+//   api_key: "secret_api_key"
+// } satisfies GoogleParameters;
+
+// // Show result as JSON
+// const response = await getJson("google", params);
+// console.log(response);
+
   return (
     <ResultContext.Provider
       value={{
